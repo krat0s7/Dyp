@@ -1,0 +1,88 @@
+/* filter.css */
+
+/* Основні стилі для контейнера фільтра */
+.filter-container {
+    background-color: #ffffff; /* Білий фон */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    max-width: 450px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Заголовок фільтра */
+  .filter-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  /* Стиль для label */
+  .filter-container label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    font-weight: 500;
+    display: block;
+  }
+  
+  /* Стиль для select елемента */
+  .filter-container select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #f7f7f7; /* Світлий фон */
+    border: 1px solid #ddd; /* Легка рамка */
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  /* Стиль для select елемента при фокусі */
+  .filter-container select:focus {
+    border-color: #2980b9; /* Синя рамка при фокусі */
+    box-shadow: 0 0 10px rgba(41, 128, 185, 0.3); /* Легка тінь при фокусі */
+  }
+  
+  /* Стиль для кнопки фільтра */
+  .filter-container button {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Зміна кольору кнопки при наведенні */
+  .filter-container button:hover {
+    background-color: #1f6f97;
+  }
+  
+  /* Адаптивні стилі для мобільних пристроїв */
+  @media screen and (max-width: 480px) {
+    .filter-container {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    .filter-container h2 {
+      font-size: 20px;
+    }
+  
+    .filter-container label,
+    .filter-container select,
+    .filter-container button {
+      font-size: 14px;
+    }
+  }
+  

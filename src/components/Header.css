@@ -1,0 +1,31 @@
+/* Заголовок */
+.header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Форма для фільтру */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-container select {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  outline: none;
+}
+
+.filter-container select:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}

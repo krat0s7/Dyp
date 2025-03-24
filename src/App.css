@@ -1,0 +1,78 @@
+/* Основні стилі для контейнера */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+}
+
+/* Стилі для блоку з фільтрами */
+.filter-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-container select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.filter-container select:focus {
+  border-color: #0066cc;
+}
+
+/* Стилі для картки карти */
+.map-container {
+  width: 100%;
+  height: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Стилі для кожного маркера */
+.leaflet-div-icon {
+  background-color: transparent;
+  border: none;
+}
+
+.leaflet-div-icon img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+/* Загальні стилі для картки попапу */
+.leaflet-popup-content {
+  font-size: 1rem;
+  color: #333;
+}
+
+.leaflet-popup-content b {
+  color: #0066cc;
+}
+
+/* Загальний стиль контейнера */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

@@ -1,0 +1,42 @@
+/* Загальний стиль для карти */
+.leaflet-container {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стиль попапу на карті */
+  .leaflet-popup-content {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+.map-container {
+  height: 600px; /* Збільшена висота карти */
+  width: 100%; /* Ширина займає весь доступний простір */
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .map-container {
+    height: 400px; /* Менша висота карти на мобільних пристроях */
+  }
+}
+
+/* Стиль для маркерів */
+.leaflet-marker-icon {
+    border-radius: 50%;
+    border: 2px solid #2980b9; /* Синя обведення для маркерів */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тінь для кращого вигляду */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Збільшення маркера при наведенні */
+  .leaflet-marker-icon:hover {
+    transform: scale(1.2); /* Збільшуємо маркер при наведенні */
+    cursor: pointer; /* Показуємо, що маркер інтерактивний */
+  }
+  
